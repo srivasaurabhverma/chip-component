@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React from 'react';
+import ChipComponent from './ChipComponent';
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav className="navbar navbar-dark bg-dark">
+        <div className="container">
+          <span className="navbar-brand mb-0 h1">My Chip App</span>
+        </div>
+      </nav>
+      <div className="container mt-4">
+        <ChipComponent />
+      </div>
+      <footer className="bg-dark text-white text-center py-2 fixed-bottom">
+        <p>&copy; 2024 My Chip App</p>
+      </footer>
     </div>
   );
 }
