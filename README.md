@@ -35,7 +35,7 @@ Follow these instructions to set up and run the project on your local machine.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/chip-component.git
+git clone https://github.com/srivasaurabhverma/chip-component.git
 ```
 
 2. Change into the project directory:
@@ -77,6 +77,3 @@ Contributions are welcome! If you find any issues or have suggestions, please op
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 ```
 
-Replace placeholders like `[Your Name]`, `[Your Email]`, and `[Your Repository]` with your actual information. Also, make sure to include any specific details or instructions relevant to your project.
-
-This README template covers essential sections, providing clear instructions for setting up the project and information about its features. Adjust it according to the specifics of your assignment and any additional details you'd like to include.
